@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Day Of Birth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <form class="container">
+      <h1>Calculate Akon Name</h1>
+      <hr />
+      <div class="form-group">
+        <select name="gender" id="gender">
+          <option value="" selected>Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <hr />
+
+      <div class="form-group">
+        <label><b>Birth date </b></label>
+        <hr />
+        <select name="month" id="month">
+          <option value="" selected>Month</option>
+          <option value="January">Jan</option>
+          <option value="February">Feb</option>
+          <option value="March">Mar</option>
+          <option value="April">Apr</option>
+          <option value="May">May</option>
+          <option value="June">Jun</option>
+          <option value="July">Jul</option>
+          <option value="August">Aug</option>
+          <option value="September">Sep</option>
+          <option value="October">Oct</option>
+          <option value="November">Nov</option>
+          <option value="December">Dec</option>
+        </select>
+        <select name="day" id="day">
+          <option value="" selected>Day</option>
+          <option value="1">01</option>
+          <option value="2">02</option>
+          <option value="3">03</option>
+          <option value="4">04</option>
+          <option value="5">05</option>
+          <option value="6">06</option>
+          <option value="7">07</option>
+          <option value="8">08</option>
+          <option value="9">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <input
+          type="text"
+          name="year"
+          id="year"
+          value="19"
+          size="4"
+          maxlength="4"
+        />
+      </div>
+      <hr />
+
+      <input
+        class="btn btn-primary"
+        type="button"
+        value="Calculate"
+        onclick="calculate()"
+      />
+    </form>
+
+    <script src="main.js"></script>
+  </body>
+</html>
