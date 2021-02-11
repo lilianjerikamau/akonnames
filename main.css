@@ -1,0 +1,32 @@
+.container {
+  background-color: limegreen;
+  background-repeat: repeat;
+}
+html {
+  background-color: limegreen;
+}
+
+body {
+  background-color: limegreen;
+}
+.container hr {
+  background-color: magenta;
+  opacity: 0;
+}
+#month {
+  background-color: purple;
+  border-color: black;
+}
+#gender {
+  background-color: purple;
+  border-color: black;
+}
+#year {
+  background-color: purple;
+  border-color: black;
+  border: 800px;
+}
+#day {
+  background-color: purple;
+  border-color: black;
+}
