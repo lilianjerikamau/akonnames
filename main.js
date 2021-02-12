@@ -1,8 +1,11 @@
 function calculate() {
+    //select element by id
+
     const month = document.getElementById("month").value;
     const day = document.getElementById("day").value;
     var year = document.getElementById("year").value;
-    var gender = document.getElementById("gender");
+    var gender = document.getElementById("gender").value;
+
     var dob = month + " " + day + ", " + year;
     var then = new Date(dob);
     var theday = then.getDay() + 1;
@@ -10,7 +13,9 @@ function calculate() {
     year = then.getYear();
     if (year < 100) year = "19" + then.getYear();
     else year = then.getYear();
-    if (gender.value == "female") {
+
+    
+    if (gender == "female") {
         var weekday = new Array(6);
         weekday[1] = "Akosua";
         weekday[2] = "Adwoa";
@@ -19,7 +24,7 @@ function calculate() {
         weekday[5] = "Yaa";
         weekday[6] = "Afua";
         weekday[7] = "Ama";
-    } else if (gender.value == "male") {
+    } else if (gender == "male") {
         var weekday = new Array(6);
         weekday[1] = "Kwasi";
         weekday[2] = "Kwadwo";
@@ -31,10 +36,9 @@ function calculate() {
     } else {
         alert("Sorry! Input a valid Gender value");
     }
-            
-        
-    
-        if (day != date) alert("Sorry!  That appears to be an invalid date!");
+
+
+    if (day != date) alert("Sorry!  That appears to be an invalid date!");
         else {
     
             dayborn = weekday[theday];
