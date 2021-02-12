@@ -14,7 +14,7 @@ function calculate() {
     if (year < 100) year = "19" + then.getYear();
     else year = then.getYear();
 
-    
+
     if (gender == "female") {
         var weekday = new Array(6);
         weekday[1] = "Akosua";
@@ -44,7 +44,7 @@ function calculate() {
             dayborn = weekday[theday];
 
             dob = dayborn ;
-            alert("Your Akon name is " + dob);
+            alert("Your Akan name is " + dob);
         }
     
 }
