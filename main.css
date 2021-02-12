@@ -13,6 +13,9 @@ body {
   background-color: magenta;
   opacity: 0;
 }
+.container ul {
+  columns: 2;
+}
 #month {
   background-color: purple;
   border-color: black;
