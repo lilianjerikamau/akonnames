@@ -24,7 +24,7 @@ Saturday: Ama
 
 ## Installation
 
-clone project from:https://github.com/lilianjerikamau/akonnames.git
+clone project from: https://lilianjerikamau.github.io/akonnames/
 
 ## Usage
 
