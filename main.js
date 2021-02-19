@@ -4,7 +4,6 @@ function calculate() {
     const day = document.getElementById("day").value;
     var year = document.getElementById("year").value;
     var gender = document.getElementById("gender").value;
-
     var dob = month + " " + day + ", " + year;
     var then = new Date(dob);
     var theday = then.getDay() + 1;
