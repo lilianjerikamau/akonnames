@@ -22,9 +22,25 @@ Thursday: Yaa
 Friday: Afua
 Saturday: Ama
 
+## Author
+
+Name :Lilian Kamau
+Github link https://github.com/lilianjerikamau
+
 ## Installation
 
 clone project from: https://lilianjerikamau.github.io/akonnames/
+
+## Setup Instruction
+
+No set up instructions at the moment
+
+## Technologies used
+
+Basic html
+css
+Bootstrap
+Javascript
 
 ## Usage
 
