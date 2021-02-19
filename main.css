@@ -9,13 +9,14 @@ html {
 body {
   background-color: limegreen;
 }
+.container ul {
+  columns: 2;
+}
 .container hr {
   background-color: magenta;
   opacity: 0;
 }
-.container ul {
-  columns: 2;
-}
+
 #month {
   background-color: purple;
   border-color: black;
