@@ -37,9 +37,9 @@ No set up instructions at the moment
 
 ## Technologies used
 
-Basic html
-css
-Bootstrap
+html5
+css3
+Bootstrap 4
 Javascript
 
 ## Usage
