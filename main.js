@@ -1,6 +1,5 @@
 function calculate() {
     //select element by id
-
     const month = document.getElementById("month").value;
     const day = document.getElementById("day").value;
     var year = document.getElementById("year").value;
@@ -13,9 +12,7 @@ function calculate() {
     year = then.getYear();
     if (year < 100) year = "19" + then.getYear();
     else year = then.getYear();
-
 //if gender is female ,give the following names
-
     if (gender == "female") {
         var weekday = new Array(6);
         weekday[1] = "Akosua";
@@ -36,14 +33,11 @@ function calculate() {
         weekday[7] = "Kwame";
     } else {
         //if you select "gender" instead  of female or male it pops up an error
-
         alert("Sorry! Input a valid Gender value");
     }
     // if you select e.g 31st February or 31st september an error pops up
-
     if (day != date) alert("Sorry!  That appears to be an invalid date!");
     else {
-        
             dayborn = weekday[theday];
             dob = dayborn ;
             alert("Your Akan name is " + dob);
