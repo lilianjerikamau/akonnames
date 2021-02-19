@@ -66,6 +66,10 @@ TODO: Write credits
 
 Here is a working live demo : https://lilianjerikamau.github.io/akonnames/
 
+## Contact
+
+You can follow me on github :https://github.com/lilianjerikamau
+
 ## License & copyright
 
 [MIT](https://choosealicense.com/licenses/mit/) © [Lilian Kamau](https://github.com/lilianjerikamau/lilianjerikamau.github.io)
