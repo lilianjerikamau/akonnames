@@ -40,6 +40,6 @@ function calculate() {
             dayborn = weekday[theday];
             dob = dayborn ;
             alert("Your Akan name is " + dob);
-        }
+    }
     
 }

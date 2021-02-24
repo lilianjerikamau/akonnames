@@ -1,35 +1,18 @@
-.container {
-  background-color: limegreen;
-  background-repeat: repeat;
-}
-html {
-  background-color: limegreen;
-}
-
-body {
-  background-color: limegreen;
-}
-.container hr {
-  background-color: magenta;
-  opacity: 0;
-}
 .container ul {
   columns: 2;
 }
-#month {
-  background-color: purple;
-  border-color: black;
+hr {
+  color: white;
 }
-#gender {
-  background-color: purple;
-  border-color: black;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  height: 100vh;
+  overflow: hidden;
+  font-size: 14px;
 }
-#year {
-  background-color: purple;
-  border-color: black;
-  border: 800px;
-}
-#day {
-  background-color: purple;
-  border-color: black;
+hr {
+  color: #8e44ad;
 }
