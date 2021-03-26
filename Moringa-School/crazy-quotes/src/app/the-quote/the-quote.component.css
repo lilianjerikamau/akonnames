@@ -1,0 +1,19 @@
+.card {
+  background-color: black;
+  background-size: cover;
+  color: white;
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin: 30px;
+}
+.icon {
+  margin: 20px;
+}
+button {
+  margin-left: 30px;
+  opacity: 1;
+  background-color: blueviolet;
+}
